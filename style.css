@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+:root
+{
+    --color-primario: #d9e9f2;
+    --color-secundario: #0e196a;
+    --color-terciario: #3b7bbc;
+    --color-cuarto: #374d57;
+    --fuente-Serif: "DM Serif Text", serif;
+}
+*
+{
+    background: var(--color-primario);
+    font-family: var(--fuente-Serif) ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.main
+{
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 80px;
+
+}
+
+.text-area{
+
+    border: none;
+    color: var(--color-terciario);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder { color: var(--color-terciario);}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensaje
+{
+    background: var(--color-secundario);
+    background-image: url(/Assets/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-primario);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    
+
+}
+
+.btn-encriptar{
+
+    background-color: var(--color-terciario);
+    border: 1px solid var(--color-terciario);
+    border-radius: 24px;
+    color: var(--color-primario);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.btn-desencriptar
+{
+    background: var(--color-primario);
+    border: 1px solid var(--color-terciario);
+    border-radius: 24px;
+    color: var(--color-terciario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar
+{
+    border: 1px solid var(--color-terciario);
+    border-radius: 24px;
+    color: var(--color-terciario);
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    
+}
+
+.informacion
+{
+    color: var(--color-terciario);
+    font-size: 18px;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    color: var(--color-secundario);
+}
